@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.js"></script>
+    
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="Box.js"></script>
+    <script src="form.js"></script>
+    <script src="particle.js"></script>
+    <script src="ground.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <p>
+      <input id="nameInput"></input>
+      <button id="saveButton">save</button>
+  
+      <button id="clearButton">clear</button>
+    
+    </p>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCRBNm4iW02LNoWzxgYKwTcDiGcM5ccEfU",
+    authDomain: "world-is-my-canvas.firebaseapp.com",
+    databaseURL: "https://world-is-my-canvas.firebaseio.com",
+    projectId: "world-is-my-canvas",
+    storageBucket: "world-is-my-canvas.appspot.com",
+    messagingSenderId: "184059025925",
+    appId: "1:184059025925:web:f00710367b2364e0069a6c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
